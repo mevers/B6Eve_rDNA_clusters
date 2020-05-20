@@ -54,7 +54,7 @@ following statistics
 ### References
 
 - [Sarsani et al., The Genome of C57BL/6J “Eve”, the Mother of the Laboratory Mouse Genome Reference Strain, G3 9, 1795 (2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6553538/)
-- [FTP server with raw data](ftp://ftp.jax.org/b6eve)
+- [ftp://ftp.jax.org/b6eve](ftp://ftp.jax.org/b6eve)
 
 
 ## Copyright and licence
