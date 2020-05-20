@@ -1,0 +1,26 @@
+# Snakemake workflow
+#
+# Author: Maurits Evers (maurits.evers@gmail.com)
+# License: GNU GPL v3
+# Original date: 18-05-2020
+# Last changed: 18-05-2020
+
+
+# Config files
+configfile: "workflow/config.yaml"
+
+
+# Include specific rules
+# Some rules from `rules/download_files.smk` are very slow (see the rules file
+# for details, linking the link to an open GH issue); it is recommended to
+# comment out the `include: "rules/download_files.smk"` line after downloading
+# all necessary files
+include: "rules/download_files.smk"
+#include: "rules/make_reference.smk"
+#include: "rules/create_align_rDNA_frags.smk"
+#include: "rules/postprocessing.smk"
+#include: "rules/generate_circos_plot.smk"
+
+
+rule all:
+    
