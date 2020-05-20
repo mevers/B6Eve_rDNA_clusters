@@ -3,6 +3,8 @@
 Version: 0.0.9000 (20 May 2020)  
 Author: Maurits Evers (maurits.evers@gmail.com)
 
+**VERY MUCH WORK-IN-PROGRESS**
+
 ## Workflow
 
 The current workflow performs the following steps:
@@ -31,7 +33,8 @@ This means that we cannot extract sequences of full rDNA units, which requires
 at least 2 complete rDNA units within a single rDNA cluster.
 
 Note also that in `NOT_SCAFFOLDED_NGS_utg33515` the second rDNA unit seems to
-be located within the IGS of the preceding units (the length of IGS is around 32 kb).
+be located within the IGS of the preceding units (the length of the IGS is
+around 32 kb).
 
 
 ## The B6Eve genome assembly
